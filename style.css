@@ -1,0 +1,96 @@
+:root {
+    --darkBackground: #0c0c0c;
+    --buttonBackground: #333333;
+    --buttonBackgroundHover: #5a5959;
+    --textColor: #ffffff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--darkBackground);
+    color: var(--textColor);
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--darkBackground);
+    color: var(--textColor);
+    margin: 0 20px;
+}
+
+#iconContainer {
+    margin: 50px auto 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#icon {
+    height: 80px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#downloadButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.button {
+    background-color: #333333;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    margin: 0 20px;
+    font-size: 20px;
+    transition: all 0.2s linear;
+}
+.button:hover {
+    background-color: #424242;
+}
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.downloadIcon {
+    height: 30px;
+}
+.os {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#screenshotContainer {
+    margin: 60px auto 0 auto;
+    border: 5px #333333 solid;
+    border-radius: 5px;
+    max-height: 450px;
+    max-width: 600px;
+    width: 100%;
+}
+#screenshot {
+    max-width: 600px;
+    max-height: 450px;
+    width: 100%;
+}
